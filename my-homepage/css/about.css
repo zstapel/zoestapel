@@ -1,0 +1,104 @@
+body {
+    background-color: #01514B;
+}
+
+.sticky {
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+  }
+
+h1 {
+    font-size: 150px;
+    color: #5D8B88;
+    font-family: amboy-black, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    float: right;
+    margin-right: 0px;
+}
+
+a {
+    font-family: amboy-black, sans-serif;
+    font-size: 72px;
+    font-weight: 400;
+    font-weight: normal;
+    color: #00050B;
+    list-style-type: none;
+    /* transform: rotate(-90deg); */
+}
+
+a:link {
+    text-decoration: none;
+  }
+
+  a:hover {
+    color:#5D8B88;
+  }
+
+#projects {
+    transform: rotate(-90deg);
+    margin-left: -120px;
+    position: absolute;
+    margin-top: 130px;
+}
+
+#about {
+    transform: rotate(-90deg);
+    margin-left: -64px;
+    position: absolute;
+    margin-top: 425px;
+    text-decoration: underline;
+}
+
+#home {
+    transform: rotate(-90deg);
+    margin-left: -51px;
+    position: absolute;
+    margin-top: 655px;
+}
+
+.parent { 
+    display: grid; 
+    grid-template-columns: repeat(2, 560px) repeat(3, 1fr);
+    grid-template-rows: repeat(3, 250px) repeat(2, 1fr); 
+    grid-column-gap: 5px;
+    grid-row-gap: 5px; 
+    margin-left: 150px;
+    }
+    .div1 { 
+        grid-area: 1 / 1 / 4 / 2; 
+        background-color: #5680B2;
+    } 
+    .div2 {
+         grid-area: 1 / 2 / 2 / 3; 
+         background-color: #E77A1B;
+    } 
+    .div3 { 
+        grid-area: 2 / 2 / 3 / 3; 
+        background-color: #F62C28;
+    } 
+
+    .aboutme {
+        position: absolute;
+        width: 561px;
+        height: 330px;
+        left: 723px;
+        top: 485px;
+        font-family: alegreya-sans,sans-serif;
+        font-weight: 200;
+        font-style: normal;
+        font-size: 26px;
+        line-height: 30px;
+        text-align: justify;
+        color: #FFFFFF;
+
+    }
+
+    .image {
+        position: absolute;
+        margin-left: 240px;
+        margin-top: 75px;
+    }
